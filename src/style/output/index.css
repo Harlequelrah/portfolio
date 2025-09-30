@@ -92,5 +92,11 @@
   height: auto;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
+.my-projects-container--cards .project-card .screenshot-card--giftcard img {
+  width: auto;
+  height: 70%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+}
 
 /*# sourceMappingURL=index.css.map */
