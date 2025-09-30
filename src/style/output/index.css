@@ -1,0 +1,96 @@
+.presentation-container {
+  display: flex;
+}
+.presentation-container .photo-container {
+  background: radial-gradient(circle, #763cac 0%, rgba(50, 15, 133, 0) 100%);
+  margin-right: 20px;
+}
+.presentation-container .photo-container img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid #7127ba;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.me-container--colored {
+  color: #7127ba;
+}
+.me-container--underlined {
+  text-decoration: underline;
+}
+.me-container--list {
+  list-style: georgian;
+}
+.me-container--list li span {
+  color: #7127ba;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.me-container--list li {
+  margin-top: 4px;
+}
+
+.about-me-container {
+  margin-top: 50px;
+  width: 450px;
+  text-align: justify;
+}
+
+.tech-stack-container {
+  margin-top: 50px;
+  width: 450px;
+  text-align: justify;
+}
+.tech-stack-container--icons {
+  padding: 10px;
+  background-color: #4f228d;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+}
+.tech-stack-container--icons img {
+  padding: 2px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.my-projects-container h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.my-projects-container--cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.my-projects-container--cards .project-card {
+  display: flex;
+  text-align: justify;
+  margin-top: 100px;
+}
+.my-projects-container--cards .project-card .description-card {
+  width: 400px;
+}
+.my-projects-container--cards .project-card .description-card h3 {
+  margin-bottom: 10px;
+  color: #7127ba;
+}
+.my-projects-container--cards .project-card .description-card a {
+  text-decoration: underline;
+  color: white;
+}
+.my-projects-container--cards .project-card .description-card {
+  margin-right: 20px;
+}
+.my-projects-container--cards .project-card .screenshot-card img {
+  width: 400px;
+  height: auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=index.css.map */
