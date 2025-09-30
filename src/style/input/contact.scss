@@ -1,0 +1,20 @@
+ul {
+    list-style: georgian;
+    li {
+        span {
+            color: #7127ba;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        margin-top: 4px;
+    }
+}
+.contact-me-container,
+.my-social-medias-container {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    text-align: justify;
+    border: 4px solid #7127ba;
+    border-radius: 8px;
+}
